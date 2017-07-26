@@ -3,9 +3,9 @@
   "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
-      "docset_name": "E2E_VSCOMBranch_Dynamic",
+      "docset_name": "E2E_VSCOMBranch1_Dynamic",
       "build_source_folder": "E2E_VSCOMBranch_Dynamic",
-      "build_output_subfolder": "E2E_VSCOMBranch_Dynamic",
+      "build_output_subfolder": "E2E_VSCOMBranch1_Dynamic",
       "locale": "en-us",
       "version": 0,
       "open_to_public_contributors": true,
@@ -25,7 +25,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes.VS.Modern",
-      "url": "https://github.com/openpublish/templates.vs.com",
+      "url": "https://github.com/Microsoft/templates.vs.com",
       "branch": "master",
       "branch_mapping": {}
     }
