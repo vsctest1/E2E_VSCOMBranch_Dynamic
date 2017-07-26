@@ -7,7 +7,8 @@
       "build_source_folder": "E2E_VSCOMBranch_Dynamic",
       "build_output_subfolder": "E2E_VSCOMBranch_Dynamic",
       "locale": "en-us",
-      "version": 0,
+      "monikers": [],
+      "moniker_ranges": [],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -15,7 +16,25 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes.VS.Modern"
+      "template_folder": "_themes.VS.Modern",
+      "version": 0
+    },
+    {
+      "docset_name": "E2E_VSCOMBranch1_Dynamic",
+      "build_source_folder": "E2E_VSCOMBranch_Dynamic",
+      "build_output_subfolder": "E2E_VSCOMBranch1_Dynamic",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "version": 0
     }
   ],
   "notification_subscribers": [],
@@ -26,6 +45,12 @@
     {
       "path_to_root": "_themes.VS.Modern",
       "url": "https://github.com/Microsoft/templates.vs.com",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
     }
